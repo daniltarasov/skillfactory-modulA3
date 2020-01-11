@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Практика А3</title>
+	<title>Практика А4</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
@@ -115,24 +115,33 @@
 				<div class="design-tips">
 						<h2 class="design-header">Design tips, tricks, and freebies. Delivered weekly.</h5>
 						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod </p>
-					<div class="subscribe">
-						<div class="email">
-							<p>Email Adress...</p>
-						</div>
-						<a class="button-subscribe">subscribe</a>
-					</div>
+
+						<form class="subscribe" action="" method="GET">
+							
+							<input class="email" type="email" name="email" placeholder="Email Adress..." required>
+							<button class="button-subscribe" type="submit">subscribe</button>
+					   	</form>
+
 				</div>
 				<div class="get-in-touch-wrapper">
 					<div class="feedback">
 						<h2>GET IN TOUCH</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
 						<hr class="red-line get-in-touch-line">
-						<div class="feedback-form">
+						
+							<form class="feedback-form" action="" method="GET">
+								<input class="name" type="login" name="login"  placeholder="Name" required>
+								<input class="email-feedback" type="email" name="email" placeholder="Your Mail" required>
+								<input class="message" type="text" name="message"  placeholder="Type your message" required>
+								<button class="send-button" type="submit">Send message</button>
+							</form>
+
+<!-- 						<div class="feedback-form">
 							<div class="name">Name</div>
 							<div class="email-feedback">Your Mail</div>
 							<div class="message">Type your message</div>
 							<a class="send-button" href="">Send message</a>
-						</div>
+						</div> -->
 					</div>
 					<div class="contact-info">
 						<h2>Contact info</h2>

@@ -449,6 +449,11 @@ p {
 	border: none;
 	border-radius: 5px;
 	margin-right: 19px;
+	font-weight: normal;
+	font-size: 15.9953px;
+	/*color: red;*/
+	/*color: #2C2C2C;*/
+	/*line-height: 28px;*/
 
 
 }
@@ -510,7 +515,7 @@ p {
 	flex-wrap: wrap;
 }
 
-.feedback-form div {
+.feedback-form input {
 	display: flex;
 	align-items: center;
 	box-sizing: border-box;
@@ -519,6 +524,9 @@ p {
 	border-radius: 5px;
 	background-color: #f3f3f3;	
 	margin-bottom: 45px;
+	font-weight: normal;
+	font-size: 15.9953px;
+	/*line-height: 28px;*/
 }
 
 .name,
